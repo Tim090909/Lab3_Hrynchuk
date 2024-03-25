@@ -1,0 +1,16 @@
+﻿<Window x:Class="Lab2_Hrynchuk.Views.OutputView"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:local="clr-namespace:Lab2_Hrynchuk.Views"
+        Title="Your info" Height="250" Width="350">
+    <StackPanel Margin="10">
+        <TextBlock FontSize="16" FontWeight="Bold" Text="YOUR INFO"/>
+        <TextBlock FontSize="14" Text="{Binding NameDisplay}" Margin="0,5,0,0"/>
+        <TextBlock FontSize="14" Text="{Binding EmailDisplay}" Margin="0,5,0,0"/>
+        <TextBlock FontSize="14" Text="{Binding BirthDateDisplay}" Margin="0,5,0,0"/>
+        <TextBlock FontSize="14" Text="{Binding IsAdultDisplay}" Margin="0,5,0,0"/>
+        <TextBlock FontSize="14" Text="{Binding SunSignDisplay}" Margin="0,5,0,0"/>
+        <TextBlock FontSize="14" Text="{Binding ChineseSignDisplay}" Margin="0,5,0,0"/>
+        <TextBlock FontSize="14" Text="{Binding IsBirthdayDisplay}" Margin="0,5,0,0"/>
+    </StackPanel>
+</Window>
